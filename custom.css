@@ -1,0 +1,33 @@
+.contenitore{
+  width: 95%;
+  margin: auto;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+.items{
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.items a{
+  margin: 7px
+}
+
+.drop{
+  position: relative;
+}
+.content-drop{
+  position: absolute;
+  width: 50px;
+  top:50px;
+  display: none;
+}
+.active{
+  display: block;
+}
