@@ -10,7 +10,6 @@
   margin-top: 40px;
 }
 .items{
-  width: 50%;
   display: flex;
   align-items: center;
 }
@@ -19,15 +18,73 @@
   margin: 7px
 }
 
-.drop , .drop2{
+.drop{
   position: relative;
+}
+.active{
+  display: block!important;
 }
 .content-drop{
   position: absolute;
-  width: 50px;
+  min-width: 150px;
   top:50px;
+  left: -40px;
   display: none;
+  box-shadow: 2px 3px 10px rgb(167, 167, 167);
+
 }
-.active{
+.content-drop a{
+  padding: 20px;
+  color: rgb(130, 130, 130);
+  margin: 0;
+  background: white;
+  transition: background .2s;
+}
+.content-drop a:hover{
+  background: rgb(237, 237, 237);
+}
+
+/* LINKs */
+a{
+  color: gray;
+  font-size: 18px;
+  text-decoration: none;
   display: block;
+
 }
+
+.right-items a{
+  text-transform: capitalize;
+}
+
+.left-items a{
+  text-transform: uppercase;
+}
+
+.btn-rosa{
+  display: block;
+  background-color: rgb(235, 0, 141);
+  padding: 13px 25px;
+  border-radius: 30px;
+  color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
