@@ -21,7 +21,11 @@ $( document ).ready(function() {
         $(this).children(".content-drop").toggleClass("active");
         cliccato = true;
         console.log(cliccato);
+        if (cliccato == true) {
+          $(".drop2").children(".content-drop").removeClass("active");
+        }
       }
+
     );
 
     $(".drop2").click(
@@ -32,10 +36,7 @@ $( document ).ready(function() {
           cliccato = false;
           console.log(cliccato);
         }
-        else{
-          $(this).children(".content-drop").removeClass("active");
 
-        }
       }
     );
 
