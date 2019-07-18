@@ -11,6 +11,9 @@ $( document ).ready(function() {
       }
     );
 
+
+
+    //se clicchi da qualche parte chiude il dropdown
     $(document).click(function(){
       $(".content-drop").removeClass("active");
     });

@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+*{
+  font-family: 'Roboto', sans-serif;
+
+}
+
 .contenitore{
-  width: 95%;
+  width: 90%;
   margin: auto;
 }
 
@@ -14,8 +21,9 @@
   align-items: center;
 }
 
+
 .items a{
-  margin: 7px
+  margin: 8px
 }
 
 .drop{
@@ -30,9 +38,11 @@
   top:50px;
   left: -40px;
   display: none;
-  box-shadow: 2px 3px 10px rgb(167, 167, 167);
+  box-shadow: 2px 2px 7px rgb(196, 196, 196);
 
 }
+
+/* LINK DENTRO IL DROPDOWN */
 .content-drop a{
   padding: 20px;
   color: rgb(130, 130, 130);
@@ -44,35 +54,42 @@
   background: rgb(237, 237, 237);
 }
 
-/* LINKs */
-a{
-  color: gray;
+/* LINKs GENRALI */
+nav a{
+  color: rgb(147, 147, 147);
   font-size: 18px;
   text-decoration: none;
   display: block;
-
+}
+nav a:hover{
+  transition: .3s;
+  color: black;
 }
 
-.right-items a{
+.right-items a , .left-items a{
   text-transform: capitalize;
 }
 
-.left-items a{
-  text-transform: uppercase;
+.right-items > a , .drop > a {
+  padding-right: 20px;
 }
 
 .btn-rosa{
   display: block;
   background-color: rgb(235, 0, 141);
-  padding: 13px 25px;
+  padding: 11px 25px;
   border-radius: 30px;
   color: white;
+  margin-right: 0px;
 
 }
 
 
 
-
+.left-items a{
+  text-transform: uppercase;
+  margin-left: 20px
+}
 
 
 
