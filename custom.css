@@ -57,9 +57,10 @@
 /* LINKs GENRALI */
 nav a{
   color: rgb(147, 147, 147);
-  font-size: 18px;
+  font-size: 16px;
   text-decoration: none;
   display: block;
+  letter-spacing: 1px;
 }
 nav a:hover{
   transition: .3s;
@@ -83,7 +84,10 @@ nav a:hover{
   margin-right: 0px;
 
 }
-
+.btn-rosa:hover{
+  color: white;
+  background-color: rgb(150, 16, 96);
+}
 
 
 .left-items a{
